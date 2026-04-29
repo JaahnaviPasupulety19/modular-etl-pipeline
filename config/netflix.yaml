@@ -1,0 +1,7 @@
+dataset: "data/netflix.csv"
+
+
+required_columns:
+  - release_year
+
+output_path: "data/netflix_output.csv"

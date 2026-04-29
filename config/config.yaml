@@ -1,0 +1,21 @@
+# dataset: "data/airbnb.csv"
+
+# columns_to_scale:
+#   - price
+#   - minimum_nights
+
+# required_columns:
+#   - price
+#   - minimum_nights
+
+# output_path: "data/output.csv"
+
+
+dataset: "data/netflix.csv"
+
+required_columns:
+  - release_year
+
+columns_to_scale: []   
+
+output_path: "data/netflix_output.csv"
