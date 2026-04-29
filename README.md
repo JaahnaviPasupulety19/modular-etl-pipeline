@@ -61,13 +61,12 @@ pip install -r requirements.txt
 python main.py --config config/netflix.yaml
 ```
 
-
 ## 🌍 Real-World Use Cases
 
-Automated data preprocessing pipelines in data engineering workflows
-Machine learning data preparation systems
-ETL automation for analytics platforms
-Reusable data cleaning frameworks for scalable systems
+- Automated data preprocessing pipelines in data engineering workflows  
+- Machine learning data preparation systems  
+- ETL automation for analytics platforms  
+- Reusable data cleaning frameworks for scalable systems  
 
 ## 👩‍💻 Author
 
