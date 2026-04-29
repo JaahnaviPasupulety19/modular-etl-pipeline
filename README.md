@@ -18,7 +18,6 @@ It automates data preprocessing workflows including validation, cleaning, transf
 ---
 
 ## 🔄 Workflow
-
 1. Load configuration from YAML file  
 2. Read dataset (CSV)  
 3. Validate required columns  
@@ -31,3 +30,41 @@ It automates data preprocessing workflows including validation, cleaning, transf
 ---
 
 ## 🏗️ Project Structure
+modular_etl_pipeline/
+│
+├── config/ # Configuration files (YAML)
+├── pipeline/ # ETL modules (cleaning, validation, transformation)
+├── utils/ # Logger utilities
+├── data/ # Input/output datasets
+├── main.py # Entry point
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 🧠 Tech Stack
+- Python
+- Pandas
+- Scikit-learn
+- PyYAML
+- Logging (Python built-in)
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py --config config/netflix.yaml
+
+🌍 Real-World Use Cases
+Automated data preprocessing pipelines in data engineering workflows
+Machine learning data preparation systems
+ETL automation for analytics platforms
+Reusable data cleaning frameworks for scalable systems
+
+
+👩‍💻 Author
+Jaahnavi Pasupulety
+📍 Hyderabad, India
